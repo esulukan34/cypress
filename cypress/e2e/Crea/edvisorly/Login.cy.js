@@ -76,6 +76,7 @@ describe('Login Test', () => {
         // 7) Profile tikla
         cy.get('.dropdown-menu > :nth-child(1)').click()
 
+        
         // Bio ya tikla
         cy.get('div.ProfileDrawer_body__rN2sJ svg[stroke=currentColor]')
         .first().click()
